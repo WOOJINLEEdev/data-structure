@@ -1,0 +1,63 @@
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 920px;
+  height: 200px;
+  border: 3px solid #333;
+  border-right: 0;
+  border-left: 0;
+  margin: 50px auto 0;
+}
+
+.exit_entrance_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 920px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.data {
+  width: 150px;
+  height: 150px;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin: 25px 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.btn_wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 265px;
+  margin: 10px auto;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: #fff;
+  border: 3px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  border-color: blue;
+}
+
+.mean_box {
+  width: 235px;
+  list-style: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 50px auto;
+}
